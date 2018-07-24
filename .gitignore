@@ -1,4 +1,4 @@
 .idea/
-style.css/
+css/*.css
 .sass-cache/
-.map/
+сss/*.map
