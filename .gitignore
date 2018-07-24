@@ -1,4 +1,4 @@
 .idea/
 *.css
 .sass-cache/
-css/*.css.map
+*.css.map
