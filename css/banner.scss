@@ -1,8 +1,12 @@
 #banner {
-  height: 1300px;
-  background: url(../img/banner-bg.jpg) no-repeat top;
+  padding-top: 140px;
+  height: 1200px;
+  background: url(../img/banner-bg.jpg) no-repeat;
   background-size: contain;
   h1 {
     font-size: 60px;
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
   }
 }
