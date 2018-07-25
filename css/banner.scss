@@ -1,6 +1,6 @@
 #banner {
   padding-top: 140px;
-  height: 1200px;
+  height: 1050px;
   background: url(../img/banner-bg.jpg) no-repeat;
   background-size: contain;
   h1 {
@@ -27,7 +27,7 @@
     justify-content: space-between;
     margin-top: 100px;
     border-top: 1px solid #fff;
-    .plug_play {
+    /*.plug_play {
       position: absolute;
       opacity: 0;
       z-index: 5;
@@ -57,14 +57,34 @@
           margin-right: 10px;
         }
       }
-    }
+    }*/
     .item {
+      z-index: 10;
       position: relative;
       width: 370px;
       padding: 50px 60px 0 40px;
+      a {
+        display: none;
+      }
       &:hover {
-        .plug_play {
-          opacity: 1;
+        cursor: pointer;
+        background: #fff;
+        color: #222;
+        height: 520px;
+        box-shadow: 2px 2px 10px 0px grey;
+        img {
+          background: #001c4e;
+        }
+        a {
+          display: inline-block;
+          text-decoration: none;
+          color: #06b4cf;
+          font-size: 16px;
+          font-weight: 500;
+          text-transform: uppercase;
+          i {
+            margin-right: 10px;
+          }
         }
       }
     }
@@ -74,6 +94,9 @@
       color: #fff;
       h3 {
         margin: 30px 0 20px 0;
+      }
+      p {
+        margin-bottom: 50px;
       }
     }
   }
