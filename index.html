@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<title>Mineturbina</title>
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Titillium+Web" rel="stylesheet">
 	<style>
@@ -12,7 +13,73 @@
 	</style>
 </head>
 <body>
-<header>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<a href="#"><img src="img/logo.png" alt="logo"></a>
+				</div>
+				<div class="menu">
+					<div class="hidden-menu">
+					<div class="menu-toggle">
+						<input id="burger" type="checkbox">
+						<label for="burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</label>
+					</div>
+					<nav>
+						<a href="#">Home</a>
+						<a href="#">About Us</a>
+						<a href="#">White Paper</a>
+						<a href="#">Team</a>
+						<a href="#">Products</a>
+					</nav>
+					</div>
+					<select name="language" id="Language">
+						<option value="English">Eng</option>
+						<option value="Russian">Ru</option>
+						<option value="Ukraine">Ua</option>
+					</select>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="banner">
+		<div class="container">
+			<div class="title">
+				<h1>Enterprise Crypto Mining Solutions Highly Competitive Retail Price<br> Low Maintenance Solutions
+				</h1>
+				<a class="btn_preorder" href="#">Preorder now</a>
+			</div>
+			<div class="banner-items">
+				<div class="item web">
+					<img src="img/web.png" alt="web">
+					<h3>Web Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+					</p>
+					<a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+				</div>
+				<div class="item time">
+					<img src="img/alltime.png" alt="time">
+					<h3>24/7</h3>
+					<p>Advance Full Monitoring System
+						Propriety configuration
+						Advanced Cooling Solutions
+					</p>
+					<a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+				</div>
+				<div class="item garranty">
+					<img src="img/garranty.png" alt="garranty">
+					<h3>3 month warranty</h3>
+					<p>with full service expansion option</p>
+					<a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+<div class="popup">
 	<div class="container">
 		<div class="item1">
 			<div class="engine">
@@ -42,62 +109,62 @@
 
 		</div>
 	</div>
-</header>
-<!--<div id="wrapper">-->
-<!--<p><a class="button" href="#popup1">Click Me</a></p>-->
-<!--<p><a class="button" href="#popup2">Click Me Too</a></p>-->
-<!--</div>-->
+	<!--<div id="wrapper">-->
+	<!--<p><a class="button" href="#popup1">Click Me</a></p>-->
+	<!--<p><a class="button" href="#popup2">Click Me Too</a></p>-->
+	<!--</div>-->
 
-<!--<div id="popup1" class="overlay">-->
-<!--<div class="popup">-->
-<!--<h2>Info box</h2>-->
-<!--<a class="close" href="#">&times;</a>-->
-<!--<div class="content">-->
-<!--<p>This is done totally without JavaScript. Just HTML and CSS.</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
+	<!--<div id="popup1" class="overlay">-->
+	<!--<div class="popup">-->
+	<!--<h2>Info box</h2>-->
+	<!--<a class="close" href="#">&times;</a>-->
+	<!--<div class="content">-->
+	<!--<p>This is done totally without JavaScript. Just HTML and CSS.</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
 
-<!--<div id="popup2" class="overlay light">-->
-<!--<a class="cancel" href="#"></a>-->
-<!--<div class="popup">-->
-<!--<h2>What the what?</h2>-->
-<!--<div class="content">-->
-<!--<p>Click outside the popup to close.</p>-->
-<!--</div>-->
-<!--</div>-->
-<!--</div>-->
+	<!--<div id="popup2" class="overlay light">-->
+	<!--<a class="cancel" href="#"></a>-->
+	<!--<div class="popup">-->
+	<!--<h2>What the what?</h2>-->
+	<!--<div class="content">-->
+	<!--<p>Click outside the popup to close.</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
 
 
-<!--<button type="button" onclick="alert('Hello World!')">Preorder now</button>-->
-<div class="container3">
-	<div class="title">
-		<h2>Please fill information</h2>
-	</div>
-	<form action="#">
-		<div class="container4">
-			<div class="first-name">
-				First name:
-				<br>
-				<input type="text" name="firstname" value="">
-			</div>
-			<div class="last-name">
-				Last name:
-				<br>
-				<input type="text" name="lastname" value="">
-			</div>
-			<div class="e-mail">
-				E-mail:
-				<br>
-				<input type="text" name="e-mail" value="">
-			</div>
-			<div class="countri">
-				<select>
-
-				</select>
-			</div>
+	<!--<button type="button" onclick="alert('Hello World!')">Preorder now</button>-->
+	<div class="container3">
+		<div class="title">
+			<h2>Please fill information</h2>
 		</div>
-	</form>
+		<form action="#">
+			<div class="container4">
+				<div class="first-name">
+					First name:
+					<br>
+					<input type="text" name="firstname" value="">
+				</div>
+				<div class="last-name">
+					Last name:
+					<br>
+					<input type="text" name="lastname" value="">
+				</div>
+				<div class="e-mail">
+					E-mail:
+					<br>
+					<input type="text" name="e-mail" value="">
+				</div>
+				<div class="countri">
+					<select>
+
+					</select>
+				</div>
+			</div>
+		</form>
+	</div>
 </div>
 </body>
 </html>
