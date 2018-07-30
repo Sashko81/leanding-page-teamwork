@@ -1,0 +1,83 @@
+* {
+  font-family: 'Righteous', cursive;
+}
+
+.container {
+  height: 157px;
+  width: 854px;
+  display: flex;
+  flex-direction:row;
+}
+
+.item1 {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  height: 157px;
+  width: 50vw;
+  background-color: #4c637b;
+}
+.engine
+{
+  margin-left: 49.5px;
+  margin-top: 31.6px;
+  margin-bottom:14.7px;
+  margin-right: 37.4px;
+
+}
+
+.item2 {
+
+  height: 157px;
+  width: 268px;
+  background-color: #5e7a98;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+}
+
+.item3 {
+  height: 9.5px;
+  width: 50vw;
+  background-color: #b8c6d6;
+}
+.container2
+{
+
+
+}
+h2{
+  margin-top: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 0;
+}
+h6{
+  text-align: center;
+  color: #a7b4c3;
+  text-decoration: line-through;
+}
+.container3{
+  height: 622.5px;
+  width: 824.9px;
+  background-color: white;
+
+}
+.title {
+  h2 {
+    height: 76px;
+    width: 854.5px;
+    text-align: center;
+    color: #002b6d;
+    margin-left:210px;
+    margin-top: 50px;
+  }
+}
+.container4{
+  display: flex;
+  justify-content: center;
+  height:353.4px;
+  width: 433.3px;
+}
