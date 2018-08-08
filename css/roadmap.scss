@@ -1,0 +1,138 @@
+#stepper {
+  padding-bottom: 50px;
+  .stepper_title {
+    text-align: center;
+    padding: 50px 0 25px 0;
+    h2 {
+      font-size: 46px;
+      font-weight: 100;
+    }
+  }
+  .roadmap {
+    text-align: center;
+    text-transform: uppercase;
+    .road-line {
+      width: 4px;
+      height: 25px;
+      background: #0a6aa8;
+      margin: 0 auto;
+    }
+    .grey {
+      height: 50px;
+      background: #b7b7b7;
+    }
+    ul {
+      margin-bottom: 45px;
+      list-style: none;
+      i {
+        color: #0a6aa8;
+        border: 2px solid;
+        padding: 4px;
+        border-radius: 50%;
+      }
+      p {
+        color: #0a6aa8;
+        font-size: 16px;
+      }
+      .right_span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 40px;
+        span {
+          margin-left: 20px;
+          background: #0a6aa8;
+          padding: 3px 15px 3px 3px;
+          border-radius: 25px;
+          color: #fff;
+          i {
+            margin-right: 20px;
+            background: #fff;
+          }
+        }
+      }
+      .left_span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 178px;
+        span {
+          margin-right: 20px;
+          background: #0a6aa8;
+          padding: 3px 3px 3px 15px;
+          border-radius: 25px;
+          color: #fff;
+        }
+        i {
+          margin-left: 20px;
+          background: #fff;
+        }
+      }
+      .jun,
+      .july,
+      .oct,
+      .nov,
+      .jan,
+      .march {
+        i {
+          color: #fff;
+          border: none;
+        }
+      }
+      .jun {
+        margin-left: 260px;
+      }
+      .july {
+        margin-right: 230px;
+      }
+      .oct {
+        margin-left: 175px;
+      }
+      .nov {
+        margin-right: 146px;
+      }
+      .jan {
+        margin-left: 215px;
+      }
+      .march {
+        margin-right: 120px;
+      }
+    }
+  }
+  .forma {
+    background: linear-gradient(23deg, rgba(8,29,81,1) 35%, rgba(0,67,128,1) 67%);
+    height: 120px;
+    width: 580px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    h3 {
+      color: #fff;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+    .mail {
+      margin: 20px auto;
+      width: 395px;
+      border: none;
+      border-radius: 20px;
+      background: #fff;
+      input {
+        border-radius: 20px;
+        border: none;
+        padding: 10px 15px;
+        outline: none;
+      }
+      button {
+        background: #1983c7;
+        padding: 10px 15px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        margin-right: -30px;
+        color: #fff;
+      }
+    }
+  }
+}
