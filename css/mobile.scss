@@ -101,6 +101,14 @@
       }
     }
   }
+  #newsSection {
+    .news-item {
+      flex-direction: column;
+      .blog {
+        margin: 0 auto;
+      }
+    }
+  }
 }
 
 @media (max-width: 992px) {
@@ -135,6 +143,13 @@
           .circle {
             display: none;
           }
+        }
+      }
+    }
+    #newsSection {
+      .news-item {
+        .blog {
+          text-align: center;
         }
       }
     }
