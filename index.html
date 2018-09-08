@@ -1,57 +1,367 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>mineturbina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Mineturbina</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Titillium+Web" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous|Titillium+Web');
+    </style>
 </head>
 <body>
-    <section id="services">
-        <div class="container">
-            <div class="title">
-            <h1>Mission Statement</h1>
-            <p> Become a trusted technology company, established to provide cutting edge technologies<br> and solution for the enterprise crypto currency minning market</p>
-            </div>
-            <div class="read">
-               <a href="#">Read More <i class="fas fa-caret-right"></i>
-               </a>
+	<header>
+		<div class="container">
+			<div class="header">
+				<div class="logo">
+					<a href="#"><img src="img/logo.png" alt="logo"></a>
+				</div>
+				<nav class="menu">
+					<input id="burger" type="checkbox">
+						<label for="burger">
+							<span></span>
+							<span></span>
+							<span></span>
+						</label>
+					<div class="navigation">
+						<a href="#">Home</a>
+						<a href="#">About Us</a>
+						<a href="#">White Paper</a>
+						<a href="#">Team</a>
+						<a href="#">Products</a>
+					</div>
+					<select name="language" id="Language">
+						<option value="English">Eng</option>
+						<option value="Russian">Ru</option>
+						<option value="Ukraine">Ua</option>
+					</select>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<section id="banner">
+		<div class="container">
+			<div class="title">
+				<h1>Enterprise Crypto Mining Solutions Highly Competitive Retail Price<br> Low Maintenance Solutions
+				</h1>
+				<a class="btn_preorder" href="#">Preorder now</a>
+			</div>
+			<div class="banner-items">
+				<div class="item web">
+					<img src="img/web.png" alt="web">
+					<h3>Web Development</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+					</p>
+					<a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+				</div>
+				<div class="item time">
+					<img src="img/alltime.png" alt="time">
+					<h3>24/7</h3>
+					<p>Advance Full Monitoring System
+						Propriety configuration
+						Advanced Cooling Solutions
+					</p>
+					<a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+				</div>
+				<div class="item garranty">
+					<img src="img/garranty.png" alt="garranty">
+					<h3>3 month warranty</h3>
+					<p>with full service expansion option</p>
+					<a href="#"><i class="fas fa-arrow-circle-right"></i>Read More</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="services">
+		<div class="container">
+			<div class="title">
+				<h1>Mission Statement</h1>
+				<p> Become a trusted technology company, established to provide cutting edge technologies<br> and solution for the enterprise crypto currency minning market</p>
+			</div>
+			<div class="read">
+				<a href="#">Read More <i class="fas fa-caret-right"></i>
+				</a>
 
-            </div>
-        </div>
+			</div>
+		</div>
 
-    </section>
-    <section id="products">
-        <div class="container">
-            <div class="subtitle">
-                <h2>Products</h2>
-            </div>
-            <div class="spiders">
-                <div class="spider">
-                    <h4>SPIDERMINER CRAFT</h4>
-                    <img src="img/icon1.png" height="84" width="54"/>
-                    <p>Single server,up to 50TH/s,<br>designed to fit in our 19"Rack</p>
-                    <a href="#">COMING SOON</a>
-                </div>
-                <div class="spider">
-                    <h4>SPIDERMINER ICEBERG</h4>
-                    <img src="img/icon2.png" height="141" width="82"/>
-                     <p>Single server with our advenced<br>water cooling designed system</p>
-                    <p>Preorder price:<br>$9,680.00<br>
-                        <span class="line-through
+	</section>
+	<section id="products">
+		<div class="container">
+			<div class="subtitle">
+				<h2>Products</h2>
+			</div>
+			<div class="spiders">
+				<div class="spider">
+					<h4>SPIDERMINER CRAFT</h4>
+					<img src="img/icon1.png" height="84" width="54"/>
+					<p>Single server,up to 50TH/s,<br>designed to fit in our 19"Rack</p>
+					<a href="#">COMING SOON</a>
+				</div>
+				<div class="spider">
+					<h4>SPIDERMINER ICEBERG</h4>
+					<img src="img/icon2.png" height="141" width="82"/>
+					<p>Single server with our advenced<br>water cooling designed system</p>
+					<p>Preorder price:<br>$9,680.00<br>
+						<span class="line-through
 ">Regular price:$12,000.00</span></p>
-                    <a href="#">PREORDER NOW</a>
-                </div>
-                <div class="spider">
-                    <h4>MTW BACKBONES</h4>
-                    <img src="img/icon1.png" height="84" width="54"/>
-                    <p>19"Rack<br>Contains 6 Spiderminer Icebergs<br>Fully configured plug&play 200 TH/s</p>
-                    <a href="#">COMING SOON</a>
-                </div>
-        </div>
+					<a href="#">PREORDER NOW</a>
+				</div>
+				<div class="spider">
+					<h4>MTW BACKBONES</h4>
+					<img src="img/icon1.png" height="84" width="54"/>
+					<p>19"Rack<br>Contains 6 Spiderminer Icebergs<br>Fully configured plug&play 200 TH/s</p>
+					<a href="#">COMING SOON</a>
+				</div>
+			</div>
 
+		</div>
+	</section>
+	<div class="main">
+    <img src="images/Vector-Smart-Object-copy-9.jpg">
+    <div class="first">24/7 Advance Full Monitoring System
+        <div class="second">Mineturbine proprietary monitoring system will alert & give you exact and effective
+            information
+            making
+            <div class="third"><p>sure that you make the maximum profit out of your business</p>
+            </div>
         </div>
-    </section>
+    </div>
+</div>
+<div class="second_main">
+    <div class="level">
+        <h1>Highly level Scalable planning allow us to offer our
+        </h1>
+        <p>customers Custom designs.</p>
+
+    </div>
+    <div class="block"><b>The Blockchain Boom has just Begun</b>
+        <p>The exponential growth of blockchain-bases application has led to a similar explosion in the demand of mining
+            infrastructure. Traditional mining competitors have to deal with numerous problems. Few of them apply to our
+            mobile, decentral and scalable strategy.</p>
+        <div class="br"><b>READ OUR WHITEPAPER</b></div>
+    </div>
+
+    <div class="win"><b>Creating a Win-Win for Everyone</b>
+        <div>we create a win-win scenario for power plants: We pay power-plants (and other
+            energy hubs) for letting us use their otherwise unused local overcapacities. Win-win for the
+            blockchain: We provide stability by decentralizing mining activities again, letting the community
+            fully participate in mining and making-operations immune to local regulation, guvernmental
+            restrictions, energy price spikes and bringing peace of mind to the global blockchain infrastructure.
+        </div>
+    </div>
+    <div class="im">
+        <div class="im-left">
+            <img src="images/123.jpg">
+            <p><b>Plug & Play</b></p>
+            <p>We engineered a modular, turnkey solution featuring a fully automatic startup that guarantees fully
+                autonomous mining power</p>
+        </div>
+        <div class="im-center1">
+            <img src="images/234.jpg">
+            <p><b>Independent</b></p>
+            <p>Our mobility concept enables super-simple transportation and worldwide deployment, providing immunity , e
+                .g. from local political restrictions.</p>
+        </div>
+        <div class="im-center2">
+            <img src="images/345.jpg">
+            <p><b>Punny Scalable</b></p>
+            <p>Mobile and efficient low-cost hardware and optimized propietary management hardware guarantees excellent
+                scalability.</p>
+        </div>
+        <div class="im-right">
+            <img src="images/456.jpg">
+            <p><b>High Growth</b></p>
+            <p>Our reinvestment strategy enables us to quickly grow our fleet of mobile mining units, continuosly
+                boosting dividend payout each year.</p>
+        </div>
+    </div>
+</div>
+<section id="stepper">
+	<div class="container">
+		<div class="stepper_title">
+			<h2>Roadmap</h2>
+		</div>
+		<div class="roadmap">
+			<ul>
+				<li class="circle">
+					<div class="road-line"></div>
+					<i class="fa fa-circle"></i>
+					<div class="road-line"></div>
+				</li>
+				<li class="right_span">
+					<p>January 2018</p>
+					<span><i class="fa fa-circle"></i>
+					Concept design</span>
+				</li>
+				<div class="road-line"></div>
+				<li class="left_span">
+					<span>design customised mining PCB<i class="fa fa-circle"></i></span>
+					<p>Mart 2018</p>
+				</li>
+				<div class="road-line grey"></div>
+				<li class="right_span jun">
+					<p>Jun 2018</p>
+					<span><i class="fa fa-circle"></i>
+					design customised MICRO CONTROLLER</span>
+				</li>
+				<div class="road-line grey"></div>
+				<li class="left_span july">
+					<span>DESIGN & SIMULATE COLLING SYSTEMS<i class="fa fa-circle"></i></span>
+					<p>July 2018</p>
+				</li>
+				<div class="road-line grey"></div>
+				<li class="right_span oct">
+					<p>October 2018</p>
+					<span><i class="fa fa-circle"></i>
+					BUILD & TEST RUN COLLING SYSTEM</span>
+				</li>
+				<div class="road-line grey"></div>
+				<li class="left_span nov">
+					<span>BEGIN ASSEMBLY CR1000 50 UNITS<i class="fa fa-circle"></i></span>
+					<p>November 2018</p>
+				</li>
+				<div class="road-line grey"></div>
+				<li class="right_span jan">
+					<p>January 2019</p>
+					<span><i class="fa fa-circle"></i>
+					HEAVY DUTY BETA SITE TESTING & DEBUG</span>
+				</li>
+				<div class="road-line grey"></div>
+				<li class="left_span march">
+					<span>FIRST CUSTOMER DELIVERY<i class="fa fa-circle"></i></span>
+					<p>March 2019</p>
+				</li>
+			</ul>
+		</div>
+		<div class="forma">
+			<form action="#">
+				<h3>﻿subscribe for update</h3>
+				<div class="mail">
+					<input type="email" placeholder="EMAIL">
+					<button>Give Me Updates</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</section>
+<section id="newsSection">
+	<div class="container">
+		<div class="news-title">
+			<p>Our Blog</p>
+			<h2>Latest News</h2>
+		</div>
+		<div class="news-item">
+			<div class="blog">
+				<div class="img server"></div>
+				<span>January 25, 2017</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</p>
+				<a href="#">Read More<i class="fa fa-caret-right"></i></a>
+			</div>
+			<div class="blog">
+				<div class="img bit"></div>
+				<span>January 25, 2017</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</p>
+				<a href="#">Read More<i class="fa fa-caret-right"></i></a>
+			</div>
+			<div class="blog">
+				<div class="img coin"></div>
+				<span>January 25, 2017</span>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do</p>
+				<a href="#">Read More<i class="fa fa-caret-right"></i></a>
+			</div>
+		</div>
+	</div>
+</section>
+<!--<div class="popup">
+	<div class="container">
+		<div class="item1">
+			<div class="engine">
+				<img src="img/engine.jpg">
+			</div>
+			<div class="container2">
+				<div class="text1">
+					<p>U chouse:&nbsp;&nbsp;Spiderminer craft</p>
+				</div>
+				<div class="text2">
+					<p>Hash-rate:&nbsp;&nbsp;13.5 Th/s</p>
+				</div>
+				<div class="text3">
+					<p>Power:&nbsp;&nbsp;1323W</p>
+				</div>
+			</div>
+		</div>
+		<div class="item2">
+			<div>
+				<h2>Preorder price<br>$9.680,00</h2><br>
+				<h6>Regular price:$12.000,00</h6>
+			</div>
+		</div>
+	</div>
+	<div class="line">
+		<div class="item3">
+
+		</div>
+	</div>
+	<div id="wrapper">
+	<p><a class="button" href="#popup1">Click Me</a></p>
+	<p><a class="button" href="#popup2">Click Me Too</a></p>
+	</div>
+	<!--<div id="popup1" class="overlay">-->
+	<!--<div class="popup">-->
+	<!--<h2>Info box</h2>-->
+	<!--<a class="close" href="#">&times;</a>-->
+	<!--<div class="content">-->
+	<!--<p>This is done totally without JavaScript. Just HTML and CSS.</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
+
+	<!--<div id="popup2" class="overlay light">-->
+	<!--<a class="cancel" href="#"></a>-->
+	<!--<div class="popup">-->
+	<!--<h2>What the what?</h2>-->
+	<!--<div class="content">-->
+	<!--<p>Click outside the popup to close.</p>-->
+	<!--</div>-->
+	<!--</div>-->
+	<!--</div>-->
+
+
+	<!--<button type="button" onclick="alert('Hello World!')">Preorder now</button>
+	<div class="container3">
+		<div class="title">
+			<h2>Please fill information</h2>
+		</div>
+		<form action="#">
+			<div class="container4">
+				<div class="first-name">
+					First name:
+					<br>
+					<input type="text" name="firstname" value="">
+				</div>
+				<div class="last-name">
+					Last name:
+					<br>
+					<input type="text" name="lastname" value="">
+				</div>
+				<div class="e-mail">
+					E-mail:
+					<br>
+					<input type="text" name="e-mail" value="">
+				</div>
+				<div class="countri">
+					<select>
+
+					</select>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>-->
 </body>
 </html>
