@@ -1,0 +1,30 @@
+#services {
+  color: #262626;
+}
+.title {
+  padding-top: 115px;
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+  }
+  p{
+    text-align: center;
+    font-size: 16px;
+    margin-top: 45px;
+  }
+}
+
+.read {
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  cursor: pointer;
+  a{
+    text-decoration: none;
+    margin-top: 35px;
+    color: #06b4cf;
+  }
+}
